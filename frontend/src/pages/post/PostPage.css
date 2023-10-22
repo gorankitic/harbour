@@ -1,0 +1,11 @@
+.post-page {
+    margin: 2rem auto;
+    width: 50rem;
+}
+
+.post-page .action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}

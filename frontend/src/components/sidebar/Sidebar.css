@@ -1,0 +1,88 @@
+.sidebar {
+    width: 30rem;
+    min-width: 30rem;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    font-size: 1.6rem;
+    position: relative;
+    color: var(--text-color-light)
+}
+
+.sidebar .sidebar-content {
+    position: fixed;
+    width: inherit;
+}
+
+.sidebar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; 
+}
+
+.sidebar .logo a {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    color: var(--bg-color);
+}
+
+.sidebar .logo img {
+    margin-right: .3rem;
+    filter: invert(90%);
+    width: 3rem;
+}
+
+.sidebar .user {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .1rem;
+    padding: 2rem 3rem;
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar .user p {
+    margin-bottom: 1rem;
+}
+
+.sidebar .user .displayName {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+
+.sidebar .links {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.sidebar .links li {
+    margin-top: .5rem;
+}
+
+.sidebar .links a {
+    display: flex;
+    align-items: center;
+    color: var(--bg-color);
+    width: 100%;
+    padding: 1rem 4rem;
+    letter-spacing: .1rem;
+}
+
+.sidebar .links a.active {
+    color: var(--text-color-dark);
+    background-color: var(--bg-color);
+    border-radius: 2rem 0 0 2rem;
+}
+
+.sidebar .links span {
+    margin-right: 1rem;
+}
+
+.sidebar .links img {
+    margin-right: 1rem;
+    filter: invert(85%);
+}
+
+.sidebar .links .active img {
+    filter: invert(35%);
+}

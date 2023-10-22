@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: .3rem;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    border-bottom: .2rem solid var(--bg-color);;
+    font-size: 1.1rem;
+}
+
+.profile-photo {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    object-position: bottom;
+    border: .2rem solid var(--bg-color);
+    border-radius: 50%;
+    margin: .5rem 1.5rem;
+}
+
+.header a {
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 1.8rem;
+}

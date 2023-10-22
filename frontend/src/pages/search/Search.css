@@ -1,0 +1,60 @@
+.search {
+    width: 80rem;
+    margin: 2rem auto;
+}
+
+.search-bar {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    color: var(--text-color-dark);
+    border: .1rem solid var(--secondary-color);
+}
+
+.search p {
+    font-size: 1.5rem;
+    color: var(--text-color-dark);
+}
+
+.found-users {
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 35rem;
+    grid-auto-rows: 45rem;
+    grid-auto-flow: dense;
+    grid-gap: 2rem;
+}
+
+.found-user {
+    height: 30rem;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: var(--bg-color);
+}
+
+
+.found-user img {
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    object-position: bottom;
+    border: .3rem solid var(--bg-color);
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+.found-user a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    display: block;
+    text-align: center;
+}

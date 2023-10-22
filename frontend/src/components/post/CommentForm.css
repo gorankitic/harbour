@@ -1,0 +1,16 @@
+.add {
+    display: flex;
+    margin: .5rem 0;
+}
+
+.add input {
+    background-color: var(--bg-color);
+    border-style: hidden;
+    outline: none;
+    padding: 0;
+}
+
+.add input:focus {
+    border-radius: 0;
+    border-bottom: .1rem solid var(--secondary-color);
+}

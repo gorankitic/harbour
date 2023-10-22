@@ -1,0 +1,28 @@
+.comments {
+    margin: 1rem 0;
+}
+.comments .comment {
+    display: flex;
+    margin: .5rem 0;
+    font-size: 1.6rem;
+    /* color: var(--text-color-dark); */
+}
+
+.comments .comment a {
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.extend {
+    cursor: pointer;
+    margin: 10px 0;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.date {
+    margin-left: auto;
+    font-size: 1.5rem;
+}

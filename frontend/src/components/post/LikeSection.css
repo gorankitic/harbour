@@ -1,0 +1,26 @@
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icons img {
+    margin: 1rem 2rem 1rem .5rem;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    filter: invert(15%);
+    cursor: pointer;
+}
+
+.icons p {
+    margin-left: auto;
+    padding-right: .5rem;
+    font-size: 1.6rem
+}
+
+.likes {
+    border-bottom: .1rem solid var(--secondary-color);
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+}

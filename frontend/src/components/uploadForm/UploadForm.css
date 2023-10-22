@@ -1,0 +1,18 @@
+.upload-form {
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.upload-form input[type='file'] {
+    display: none;
+}
+
+.upload-form label {
+    display: inline-block;
+    margin: 0;
+}
+
+.upload-form label span {
+    margin: 0;
+    padding: 0;
+}

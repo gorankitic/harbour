@@ -1,0 +1,70 @@
+.profile {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.profile .profile-photo {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.profile header {
+    display: flex;
+    
+}
+
+.profile .default-thumbnail {
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.profile .profile-info {
+    padding: 0 3rem;
+    font-size: 1.6rem;
+    align-self: center;
+}
+
+.profile .profile-info h3 {
+    letter-spacing: .1rem;
+}
+
+.profile .stats {
+    display: flex;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.profile .stats div {
+    margin-right: 2.5rem;
+}
+
+.profile .buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: start;
+    margin-top: 1.5rem;
+
+}
+
+.profile .buttons a {
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    border-bottom: .1rem solid var(--secondary-color);
+}
+
+.profile .buttons label {
+    margin-right: 1rem;
+}
+
+.profile .error {
+    font-size: 1.5rem;
+}

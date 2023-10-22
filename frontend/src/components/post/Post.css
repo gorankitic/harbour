@@ -1,0 +1,7 @@
+.post {
+    color: var(--text-color-dark);
+    margin-bottom: 5rem;
+}
+.post .image {
+    width: 50rem;
+}
