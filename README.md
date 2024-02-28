@@ -1,4 +1,4 @@
-# Harbour
+# ⚓ Harbour
 
 Harbour is a student project and a simple full-stack social media application created in the process of learning MERN stack technologies, React, Node.js, Express, MongoDB and exploring libraries like React Router, Tanstack (React Query), Firebase/Storage for uploading files, Framer motion and more.
 
