@@ -4,6 +4,7 @@ Harbour is a student project and a simple full-stack social media application cr
 
 User can sign up and create a profile page, upload and delete photos, find friends, follow them, see their posts on timeline and profile page, like their photos and make comments. The user also receives notifications when another user starts following him, likes his photo or leaves a comment.
 
+©️ 2023 Goran Kitic
 
 <img src="frontend/src/assets/screenshots/screenshot1.png" />
 <img src="frontend/src/assets/screenshots/screenshot2.png" />
