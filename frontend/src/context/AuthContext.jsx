@@ -19,7 +19,7 @@ export const AuthContextProvider = ({ children }) => {
         signedInUser: null
     })
 
-    console.log('AuthContext state: ', state)
+    // console.log('AuthContext state: ', state)
 
     useEffect(() => {
         const signedInUser = JSON.parse(localStorage.getItem('signedInUser'))
